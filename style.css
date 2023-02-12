@@ -1,3 +1,4 @@
+
 .title{
     animation: fadeIn 1s;
     position: absolute;
@@ -50,7 +51,7 @@ ion-icon{
     transform: translateY(1020%);
     margin: 0 auto;
     max-width: 750px;
-    margin-left: 242px;
+    margin-left: 210px;
   }
 .twitter{
     color: rgb(29, 155, 239);
@@ -70,6 +71,10 @@ ion-icon{
 }
 .discord{
     color: rgb(88, 101, 242);
+    text-align: center;
+}
+.wishlist{
+    color: rgb(255, 255, 255);
     text-align: center;
 }
 
@@ -117,28 +122,6 @@ ion-icon{
         transform: translateY(-50%);
     }
 }
-@keyframes fadeInPfp2{
-    from{
-        opacity: 0;
-        transform: translateY(-100%);
-    }
-
-    to{
-        opacity: 1;
-        transform: translateY(-55%);
-    }
-}
-@keyframes fadeInPfp3{
-    from{
-        opacity: 0;
-        transform: translateY(-100%);
-    }
-
-    to{
-        opacity: 1;
-        transform: translateY(-45%);
-    }
-}
 
 
 @media screen and (max-width: 534px) {
@@ -164,21 +147,18 @@ ion-icon{
 
 @media screen and (max-width: 1580px){
     .pfp{
-        animation: fadeInPfp3 1s;
         transform: translateY(-45%);
     }
 }
 
 @media screen and (max-width: 959px){
     .pfp{
-        animation: fadeInPfp2 1s;
         transform: translateY(-55%);
     }
 }
 
 @media screen and (max-width: 649px) {
     .pfp{
-        animation: fadeInPfpPhone 1s;
         transform: translateY(-50%);
     }
     ion-icon{
