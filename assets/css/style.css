@@ -1,0 +1,65 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat&display=swap);
+body {
+  font-family: "Montserrat", sans-serif;
+  background-image: url(../images/space.webp);
+  margin: 0;
+  padding: 0;
+}
+.social-icons {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.social-icons a {
+  display: inline-block;
+  color: #fff;
+  font-size: 2rem;
+  transition: color 0.3s ease-in-out;
+  margin: 0 20px;
+}
+.social-icons a:hover {
+  color: #1da1f2;
+}
+.pfp,
+.title {
+  text-align: center;
+  padding: 0;
+}
+.title h1,
+.title h2,
+.title h3 {
+  font-size: 3rem;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+.title h2,
+.title h3 {
+  font-size: 2rem;
+  margin: 20px 0;
+}
+.title h3 {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+.pfp {
+  margin: 50px 0;
+}
+.pfp img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+.social-icons {
+  justify-content: flex-start;
+}
+.title {
+  margin: 100px 0 50px;
+}
+@media (min-width: 1024px) {
+  .social-icons {
+    justify-content: flex-end;
+  }
+  .social-icons a {
+    margin: 0 30px;
+  }
+}
